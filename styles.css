@@ -1,0 +1,107 @@
+/* 
+body{
+    display: block;
+}
+
+article{
+    width: 200px;
+}
+
+button{
+    border-radius: 20%;
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: gray;
+}
+input{
+    width: 193px
+}
+
+span{
+    margin-left: 300px;
+    
+    height: 300px;
+    width:600px
+} */
+
+/* section{
+    
+    margin-left: 300px;
+    margin-top: -500px;
+    width: 1000px;
+    border:solid black 1px;
+} */
+
+/* .day{
+    display: inline-flex;
+    width: 200px;
+    height:300px;
+    margin-top: -200px;
+    border: solid black 1px;
+}
+*/
+
+
+header{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    color: antiquewhite;
+    background-color: blue;
+}
+
+#shell{
+    display: grid;
+}
+
+#searchShell{
+    width: 200px;
+    height: 100vh;
+    border: solid black 1px; 
+}
+
+
+#todayShell {
+    margin-left: 201px;
+    margin-top: -100vh;
+    height: 25vh;
+    border:solid black 1px
+}
+
+#daysShell{
+    display: flex;
+    flex-direction: row;
+    margin-left: 201px;
+    margin-top: -75vh;
+    height: 40vh;
+    border:solid rgb(186, 15, 15) 1px
+}
+
+#searchBtn{
+    background-color: aqua;
+}
+button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    border-radius: 20%;
+}
+
+.day{
+    width: 200px;
+    background-color: bisque;
+    margin-right: 10px;
+
+}
+
+img{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js" defer></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <header>
+        <h1>Weather</h1>
+
+    </header>
+    <div id="shell">
+
+        <article id="searchShell">
+            <div id="search">
+                <h2 class="selectors"></h2>
+                <input id="input" class="selectors" type="text" placeholder="Sand Diego">
+                <button class="selectors" id="searchBtn">submit</button>
+            </div>
+            <div>
+                <button class="history" onclick="historySearch(1)">San Diego</button>
+                <button class="history" onclick="historySearch(2)">Denver</button>
+                <button class="history" onclick="historySearch(3)">Philadelphia</button>
+                <button class="history" onclick="historySearch(4)">Portland</button>
+                <button class="history" onclick="historySearch(5)">Austin</button>
+                <button class="history" onclick="historySearch(6)">Orlando</button>
+                <button class="history" onclick="historySearch(7)">New york</button>
+                <button class="history" onclick="historySearch(8)">Chicago</button>
+            
+            </div>
+        </article>
+        <section id="todayShell">
+            <h1></h1>
+            <p></p>
+            <p></p>
+            <p></p>
+
+        
+        </section>
+        <span id="daysShell">
+            <div class="day" id="day1"></div>
+            <div class="day" id="day2"></div>
+            <div class="day" id="day3"></div>
+            <div class="day" id="day4"></div>
+            <div class="day" id="day5"></div>
+        </span>
+    
+    
+    </div>
+</body>
+</html>
